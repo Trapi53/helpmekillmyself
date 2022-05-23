@@ -1,0 +1,163 @@
+body {
+  background-image: url("hatter.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: auto;
+  max-width: 1000px;
+}
+button {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+a {
+  font-weight: bold;
+}
+ul li {
+  list-style-type: none;
+  
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0px;
+  padding-top: 15px;
+  margin: 0px;
+  
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  margin: auto;
+}
+header {
+  margin-top: 15px;
+  width: 100%;
+  background-color: transparent;
+  height: 100px;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+article {
+  background-color: white;
+  max-width: 100%;
+  margin: auto;
+  padding: 15px;
+  text-align: justify;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+#fotarolo {
+  max-width: 1400px;
+  margin: auto;
+}
+
+main {
+  border: 1px solid black;
+  margin: auto;
+  max-width: 60%;
+  background-color: rgb(239, 228, 209);
+}
+
+#inp img {
+  border: 2px solid black;
+}
+
+#kivalasztott {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#tartalom {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.contaienr div {
+  align-items: center;
+}
+
+.row img {
+  border: 1px solid black;
+  margin: 2px;
+  width: 100%;
+}
+
+.gomb {
+  width: 20%;
+}
+
+.galeria img {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+section div {
+  width: 32%;
+}
+
+section img {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    max-width: 500px;
+  }
+
+  section div {
+    width: 50%;
+  }
+
+  #inp img {
+    border: 1px solid black;
+  }
+
+  #kivalasztott {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  main {
+    max-width: 300px;
+  }
+
+  section div {
+    width: 80%;
+  }
+}
